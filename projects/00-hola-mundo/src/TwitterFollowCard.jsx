@@ -8,7 +8,7 @@ export function TwitterFollowCard({ children, userName, initialIsFollowing }) {
         ? 'tw-followCard-button is-following'
         : 'tw-followCard-button'
     const handleClick = () => {
-        setIsFollowing(!isFollowing)
+        setIsFollowing(!isFollowing) 
     }
 
     return (
